@@ -46,3 +46,35 @@ ESP32
 - Atmospheric pressure sensor
 - Daily temperature chart
 - Website dark mode
+
+## Development
+The project is developed primarily in **VS Code** using two extensions:
+- PlatformIO IDE — project management, dependency handling, building, uploading firmware, and serial monitoring
+- Wokwi for VS Code — ESP32 hardware simulation
+
+Development Workflow:
+```
+Source Code
+    │
+    ▼
+PlatformIO
+    │
+    ├── Build firmware
+    │
+    ├── Manage libraries
+    │
+    └── Upload to physical ESP32
+    │
+    ▼
+firmware.bin
+    │
+    ▼
+  Wokwi
+    │
+    └── ESP32 simulation
+```
+
+## Project structure
+```
+we structuring n' shit
+```
